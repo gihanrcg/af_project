@@ -17,6 +17,7 @@ class LeaderBoard extends Component {
                );
         return (
             <div style={style.base}>
+                <p><b>Top Traveller</b></p>
                 <table class="table table-dark">
                     <tr><th>Rank</th><th>Name</th><th>Points</th></tr>
                     {listItems}
@@ -28,11 +29,11 @@ class LeaderBoard extends Component {
 }
 var style = {
     base:{
+
         height:"50%",
-        width: "30%",
-        marginTop:"10%",
-        marginLeft: "auto",
-        marginRight: "auto"
+        width: "10%",
+
+
     },
 
 };

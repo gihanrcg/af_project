@@ -6,9 +6,12 @@ import SignUp from "./SignUp";
 
 class App extends Component {
   render() {
+
     return (
-      <div className="App">
-        <SignUp/>
+      <div style={{display:"flex"}} >
+
+        <SignUp />
+        <LeaderBoard/>
       </div>
     );
   }
