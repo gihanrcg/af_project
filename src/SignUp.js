@@ -33,7 +33,7 @@ class SignUp extends Component {
 
 
     render() {
-        if(true) {
+        if(false) {
             return (
                 <div style={{width: "80%"}}>
                     <h2>Traveller Profile</h2>
